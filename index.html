@@ -1,0 +1,75 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Wahyuuu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Tri Wahyu Hidayat</div>
+    <ul class="nav-links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-left">
+      <img src="https://media.tenor.com/ohcn_v9yMngAAAAj/meme.gif" alt="Foto Dahuri" class="profile-img" />
+    </div>
+    <div class="hero-right">
+      <h1>Portofolio</h1>
+      <h2>Tri Wahyu Hidayat</h2>
+      <p class="sub">
+        <span id="typewriter"></span>
+      </p>
+
+      <div class="info-box">
+        <h3>Tentang Saya</h3>
+        <p>Perkenalkan saya <strong>Tri Wahyu Hidayat</strong> asal <strong>Jawa</strong>. Saya menyukai dunia desain grafis sejak lama dan senang mempelajari hal baru. Meskipun masih belajar, saya berambisi untuk terus meningkatkan skill desain saya.</p>
+      </div>
+
+      <div class="software">
+        <h3>Software</h3>
+        <div class="icons">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Photoshop_CC_icon.png/960px-Photoshop_CC_icon.png" alt="Photoshop" />
+          <img src="https://images.icon-icons.com/2699/PNG/512/adobe_illustrator_logo_icon_170615.png" alt="Illustrator" />
+          <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBb8YkqrmoFjcMUJULGOJelCwd1wuD58nUlAfbHb1Bz.ukVwi16SzUG6r_BREqyCVQXAEQOXUhl58S8qUNMqc0Ys-&format=source" alt="Canva" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>Proyek Saya</h2>
+    <div class="project-grid">
+      <img src="https://i.pinimg.com/originals/86/f0/7b/86f07b3af5597023a031511783402ead.gif" alt="Project 1" onclick="openModal(this.src)">
+      <img src="https://www.icegif.com/wp-content/uploads/icegif-1617.gif" alt="Project 2" onclick="openModal(this.src)">
+      <img src="https://media.tenor.com/y4x6gDa2MooAAAAM/mouth-open-meme.gif" alt="Project 3" onclick="openModal(this.src)">
+      <img src="https://www.gifcen.com/wp-content/uploads/2021/03/memes-gif-2.gif" alt="Project 4" onclick="openModal(this.src)">
+      <img src="https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif" alt="Project 5" onclick="openModal(this.src)">
+      <img src="https://media1.tenor.com/m/qs5pVKHIyTUAAAAC/kakashi-hatake-kakashi.gif" alt="Project 6" onclick="openModal(this.src)">
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="contact" id="contact">
+    <h2>Kontak Saya</h2>
+    <p>Email: Wahyuuu@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/Wahyuuu</p>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" onclick="closeModal()">
+    <img id="modalImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
